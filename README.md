@@ -32,7 +32,7 @@ This is a cloud simulation framework made on top of [CloudSim Plus](http://cloud
     -  Generated random cloudlets/tasks to be fed to LB for comparison
     -  Comparison id done w.r.t time for each Load Balancer
     -  Results as follows: MinMin > MaxMin > (Round Robin = Hashing) > Random.
-    -  Extra Design Decisions are highlighted in the doc file provided "CS441_Project.docx".
+    -  Extra Design Decisions are highlighted in the doc file provided "Architecture & Desgn Choices.docx".
     
 - Simulation Network Topology: 
     -  Two datacenters
