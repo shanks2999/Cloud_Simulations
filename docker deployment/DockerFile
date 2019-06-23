@@ -1,0 +1,4 @@
+FROM java:8
+EXPOSE 8080
+ADD /target/cloud_simulations-assembly-0.1.jar cloud_simulations-assembly-0.1.jar
+ENTRYPOINT ["java", "-jar", "cloud_simulations-assembly-0.1.jar"]
